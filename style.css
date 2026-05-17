@@ -1,4 +1,4 @@
-root {
+:root {
             --bg-color: #e5e0d8;
             --text-color: #4a4a4a;
             --accent-color: #8c7a6b;
@@ -14,7 +14,7 @@ root {
             line-height: 1.6;
         }
 
-        /* Header */
+        
         header {
             display: flex;
             justify-content: space-between;
@@ -28,17 +28,11 @@ root {
         }
 
 
-        logo { font-weight: 600;
+        .logo { font-weight: 600;
           letter-spacing: 2px;
           color:#d1c7bd; }
        
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color:  #d1c7bd;
-            font-size: 0.8rem;
-            text-transform: uppercase;
-        }
+        
 
         .btn-book {
             border: 1px solid var(--white);
@@ -48,7 +42,7 @@ root {
             font-size: 0.8rem;
         }
 
-        /* Hero Section */
+        
         .hero {
             height: 80vh;
             background: url('https://images.unsplash.com/photo-1510798831971-661eb04b3739?auto=format&fit=crop&q=80&w=2000') center/cover no-repeat;
@@ -95,7 +89,7 @@ root {
 }
 
 .about-block {
-  display: fl
+  display: flex;
   align-items: center;
   gap: 40px;
   margin: 50px auto;
